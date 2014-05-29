@@ -1,0 +1,140 @@
+﻿html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    min-height:70px;
+}
+.first, .second, .third, .fourth, .fifth, .sixth {
+    height:1024px;
+      background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.first {
+    background-image:url(../images/prewedding/first.png);
+}
+.second{
+    background-image:url(../images/prewedding/second.png);
+}
+
+.third{
+    background-image:url(../images/prewedding/third.png);
+}
+
+.fourth{
+    background-image:url(../images/prewedding/fourth.png);
+}
+
+.fifth{
+    background-image:url(../images/prewedding/fifth.png);
+}
+
+.sixth{
+    background-image:url(../images/prewedding/sixth.png);
+}
+.headline-container {
+    background-color:#1FCDCB;
+    height:100%;
+    width:100%;
+    margin:-30px -10px;
+    
+}
+.row {
+       background-color:white;
+}
+.wide
+{
+    width:100%;
+    margin:0;
+    padding:0;
+    /*margin-top:-40px;*/
+}
+
+.center-block
+{
+    float:none;
+}
+
+.headline
+{
+    /*margin-top:40px;*/
+    font-size: 80%;
+    min-height: 500px;
+    height:500px;
+    background: url(../images/wagm.png) center center no-repeat #1FCDCB;
+}
+
+.headline h1, .headline h2, .headline h3
+{
+    color:#34495e !important;
+}
+
+.headline h1
+{
+    padding-top:230px;
+}
+
+h1 {
+	font: 700 55px/55px , sans-serif;
+	color: #FFF;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+h2 {
+	font: 400 25px/25px "Oswald", sans-serif;
+	color: #FFF;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font: 700 22px/22px "Oswald", sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 0 0 10px 0;
+}
+
+h4 {
+	font: 400 16px/16px "Oswald", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 0 0 20px 0;
+}
+
+.white
+{
+    color:white !important;
+}
+
+.weddinglocationdetails {
+    background-color:rgba(255,0,0,0.5);
+    padding:20px;
+    position: relative;
+    top: -270px;
+    right: -810px;
+    width:300px;
+}
+
+.bridalparty .maid, .bridalparty .man  {
+    background-image:url(../images/bridalparty/bridesmaids.jpg);
+    margin-left:5px;
+    padding-top: 200px;
+    width:130px;
+    border-left:solid thin gray;
+    background-position:top center;
+    background-repeat:no-repeat;
+}
+
+.bridalparty .man {
+    background-image:url(../images/bridalparty/groomman.jpg);
+}
+
+.registry {
+    background-color: rgba(255,0,0,0.5);
+}
